@@ -4,10 +4,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Calculator</title>
 </head>
 <body>
-	<form method = "post" action = "jsp.calculator.jsp">
+	<form method = get action = "jsp.calculator.jsp">
 		<table border = "0" sytle ="margin-top:-50px;">
 			<tr>
 			<td>enter First Num</td><td><input type="text" name="t1"></td></tr><br>
@@ -55,7 +55,7 @@
 
         }
 
-   catch(Exception ex) {}
+   catch(Exception e) {}
 
    %>
 </body>
